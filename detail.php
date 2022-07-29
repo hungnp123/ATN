@@ -117,13 +117,13 @@
    					 </ol>
                     <div class="carousel-inner">
                     	<div class="item active">
-							<img src="IMG/<?php echo $row['toy_img'] ?>" style = "width: 500px;height: 500px;" alt="banner1">
+							<img src="Img/<?php echo $row['toy_img'] ?>" style = "width: 500px;height: 500px;" alt="banner1">
 						</div>
 						<div class="item">	
-							<img src="IMG/<?php echo $row['toy_pic1'] ?>" style = "width: 500px;height: 500px;" alt="banner2">
+							<img src="Img/<?php echo $row['toy_pic1'] ?>" style = "width: 500px;height: 500px;" alt="banner2">
 						</div>
 						<div class="item">	
-							<img src="IMG/<?php echo $row['toy_pic2'] ?>" style = "width: 500px;height: 500px;" alt="banner3">
+							<img src="Img/<?php echo $row['toy_pic2'] ?>" style = "width: 500px;height: 500px;" alt="banner3">
 						</div>
 					</div>
     				<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
