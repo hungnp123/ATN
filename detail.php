@@ -95,7 +95,7 @@
 	<div class="row">
 		<?php
 		session_start();
-		$connect = mysqli_connect('3.132.234.157','hungnp','123@123a','cp_phihung');
+		$connect = mysqli_connect('3.132.234.157','phihung','123@123a','cp_phihung');
 		// $connect = mysqli_connect('localhost','root','','cp_phihung');
 		$id = $_GET["id"];
 		$sql = "SELECT * FROM toy WHERE toy.toy_id ={$id}";		

@@ -214,8 +214,8 @@
 	</div>
 </div>
 <?php
-// $connect = mysqli_connect('3.132.234.157','hungnp','123@123a','mydb2');
-$connect = mysqli_connect('localhost','root','','cp_phihung');
+$connect = mysqli_connect('3.132.234.157','phihung','123@123a','cp_phihung');
+// $connect = mysqli_connect('localhost','root','','cp_phihung');
 if($connect){
 	//echo "Kết nối thành công";
 }
